@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+.container {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+h1 {
+    color: #333;
+}
+.form-group {
+    margin: 15px 0;
+}
+input[type="text"] {
+    padding: 10px;
+    width: 40%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.operation {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+label {
+    font-weight: bold;
+}
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 50%;
+}
+.result {
+    margin-top: 0px;
+    padding: 10px;
+    background-color: #e7f3fe;
+    border: 1px solid #b3d4fc;
+    border-radius: 5px;
+    position: absolute; /* Cambia a absolute para moverlo */
+    top: 15%; /* Ajusta la posición vertical */
+    left: 50%; /* Ajusta la posición horizontal */
+    transform: translate(-50%, -50%); /* Centrar completamente */
+}
